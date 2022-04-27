@@ -1,0 +1,233 @@
+﻿body {
+    background-color: floralwhite;
+}
+
+nav {
+    display: block;
+    padding: 10px;
+    background-color: #FFE4E1;
+    position: sticky;
+    top: 0;
+    margin: 8px;
+    border: 1px solid #BFBFBF;
+    box-shadow: -2px 0px 29px 0px rgba(0,0,0,0.5);
+    transition: top 0.3s;
+    z-index: 1;
+}
+
+    nav a:hover {
+        background-color: #FFB6C1;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 125%;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.firstLink {
+    font-size: 90%;
+}
+
+    .firstLink:link {
+        text-decoration: none;
+    }
+
+    .firstLink:visited {
+        text-decoration: none;
+    }
+
+    .firstLink:hover {
+        text-decoration: underline;
+    }
+
+    .firstLink:active {
+        text-decoration: underline;
+    }
+
+.secondLink {
+    font-size: 90%;
+}
+
+    .secondLink:link {
+        text-decoration: none;
+    }
+
+    .secondLink:visited {
+        text-decoration: none;
+    }
+
+    .secondLink:hover {
+        text-decoration: underline;
+    }
+
+    .secondLink:active {
+        text-decoration: underline;
+    }
+
+h1 {
+    text-align: center;
+    font-size: 250%;
+}
+
+h2 {
+    text-align: center;
+    font-family: Lato, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: Lato, sans-serif;
+}
+
+p {
+    width: 900px;
+    font-family: Lato, sans-serif;
+    font-size: 140%;
+    hyphens: auto;
+    font-style: italic;
+}
+
+.row {
+    display: flex;
+}
+
+.columnOne {
+    flex: 33.33%;
+    margin: 30px;
+}
+
+.columnTwo {
+    flex: 33.33%;
+    margin: auto;
+    padding-right: 100px;
+}
+
+.rowTwo {
+    display: flex;
+}
+
+.map {
+    width: 530px;
+    padding-left: 200px;
+}
+
+.column1 {
+    width: 500px;
+    flex: 33.33%;
+    margin: 30px auto;
+}
+
+.column2 {
+    flex: 33.33%;
+    margin: auto;
+    padding-right: 100px;
+}
+
+.rowThree {
+    display: flex;
+}
+
+.zoo {
+    width: 530px;
+    padding-left: 200px;
+}
+
+.col1 {
+    width: 500px;
+    flex: 33.33%;
+    margin: 30px auto;
+}
+
+.col2 {
+    flex: 33.33%;
+    margin: auto;
+    padding-right: 100px;
+}
+
+.thingsToConsider {
+    text-align: center;
+    text-align: -webkit-center;
+    border-style: double;
+    padding: 30px;
+    margin: 30px auto;
+    width: 1000px;
+}
+
+.rowFour {
+    display: flex;
+}
+
+.eat {
+    width: 530px;
+    padding-left: 200px;
+}
+
+.colOne {
+    width: 500px;
+    flex: 33.33%;
+    margin: 30px auto;
+}
+
+.colTwo {
+    flex: 33.33%;
+    padding-right: 100px;
+    margin: auto;
+}
+
+.purchasing {
+    text-align: center;
+    text-align: -webkit-center;
+    border-style: double;
+    padding: 30px;
+    margin: 30px auto;
+    width: 1000px;
+}
+
+.rowFive {
+    display: flex;
+}
+
+.domesticCat {
+    width: 530px;
+    padding-left: 200px;
+}
+
+.col3 {
+    width: 500px;
+    flex: 33.33%;
+    margin: 30px auto;
+}
+
+.col4 {
+    flex: 33.33%;
+    padding-right: 100px;
+    margin: auto;
+}
+
+.link:link {
+    text-decoration: none;
+}
+
+.link:visited {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:active {
+    text-decoration: underline;
+}
+
+footer {
+    bottom: auto;
+    margin-top: 90px;
+    font-size: 90%;
+    text-align: center;
+}

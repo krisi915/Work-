@@ -1,0 +1,87 @@
+﻿body {
+    background-color: wheat;
+}
+
+nav {
+    display: block;
+    padding: 10px;
+    background-color: #FFE4E1;
+    position: sticky;
+    top: 0;
+    margin: 8px;
+    border: 1px solid #BFBFBF;
+    box-shadow: -2px 0px 29px 0px rgba(0,0,0,0.5);
+    transition: top 0.3s;
+    z-index: 1;
+}
+
+    nav a:hover {
+        background-color: #FFB6C1;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 125%;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.images {
+    margin-left: 60px;
+}
+
+.image {
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    font-size: 200%;
+}
+
+h3 {
+    text-align: center;
+    font-family: Lato, sans-serif;
+}
+
+.bigCatsTitle {
+    padding-top: 70px;
+}
+
+p {
+    width: 900px;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 500px;
+    font-family: Lato, sans-serif;
+    font-size: 140%;
+    hyphens: auto;
+    font-style: italic;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    bottom: auto;
+    margin-top: 90px;
+    font-size: 100%;
+    font-weight: 600;
+}
